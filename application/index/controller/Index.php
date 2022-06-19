@@ -11,7 +11,6 @@ class Index
 
     public function hello($name = 'ThinkPHP5')
     {
-        echo '新的';
         return 'hello,' . $name.'测试';
     }
 }
